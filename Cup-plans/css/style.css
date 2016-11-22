@@ -1,0 +1,85 @@
+* {
+    transition: all .1s ease-in;
+}
+
+@font-face {
+    font-family: "Miso Regular";
+    src: url(../fonts/miso-regular.ttf);
+}
+
+@font-face {
+    font-family: "Miso Bold";
+    src: url(../fonts/miso-bold.ttf);
+}
+
+@font-face {
+    font-family: "Lato light";
+    src: url(../fonts/Lato-Light.ttf);
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+.grid {
+    width: 100%;
+    height: 650px;
+    font-family: "Miso Bold", sans-serif;
+    font-size: 1.1em;
+    text-align: center;
+    margin: auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #FDDE7E;
+}
+
+.grid-row-1-3 {
+    width: 22%;
+    height: 60%;
+    justify-content: space-around;
+    align-items: center;
+    background: #fff;
+    padding: 3% 3% 5% 3%;
+}
+
+.grid-row-1-3:hover {
+    transform: scale(1.15);
+}
+
+.grid-row-1-3:hover .price {
+    color: #FF1493;
+}
+
+.price {
+    font-size: 4em;
+    font-weight: 800;
+    color: #02995b;
+    padding: 3%;
+}
+
+.img {
+    margin-left: 5%;
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+.title {
+    font-family: "Miso Regular", sans-serif;
+    font-size: 3em;
+    padding-top: 4%;
+    color: #414141;
+}
+
+.subtitle {
+    font-family: "Lato Light", sans-serif;
+    font-size: 1.25em;
+    padding-top: 5%;
+    color: #858585;
+}
