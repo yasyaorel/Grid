@@ -1,0 +1,105 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #F0FFF0;
+}
+
+@font-face {
+    font-family: "HansKendrick Regular", sans-serif;
+    src: url(../fonts/HansKendrick-Regular.otf);
+}
+
+.grid {
+    width: 60%;
+    height: 700px;
+    margin: auto;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+[class*="grid__row-"] {
+    float: left;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 1%;
+    background-color: #F0FFF0;
+    height: 100%;
+}
+
+.grid__row-1-3 {
+    width: 33.3%;
+    height: 50%;
+}
+
+.grid__row-2-3 {
+    width: 66.6%;
+    height: 50%;
+}
+
+.grid__container {
+    background-color: white;
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.old-car {
+    background: url(../image/old_car.jpg) center no-repeat;
+    width: 100%;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+.grid__image {
+    width: 100%
+}
+
+.grid__text {
+    position: absolute;
+    bottom: 1%;
+    padding-left: 4%;
+}
+
+.grid__data1 {
+    font-family: "HansKendrick Regular", sans-serif;
+    font-size: 0.8em;
+    font-weight: 600;
+    color: #FFF0F5;
+}
+
+.grid__data {
+    font-family: "HansKendrick Regular", sans-serif;
+    font-size: 0.7em;
+    padding-left: 4%;
+    color: #818181;
+}
+
+.grid__title {
+    font-family: "HansKendrick Regular", sans-serif;
+    font-size: 1.25em;
+    font-weight: 600;
+    color: #F0FFF0;
+    text-transform: uppercase;
+}
+
+.grid__subtitle {
+    padding-left: 4%;
+    font-family: Arial, sans-serif;
+    font-size: 1em;
+    font-weight: 600;
+    color: #1d1d1d;
+    text-transform: uppercase;
+}
+
+.icon {
+    position: absolute;
+    bottom: 0;
+    padding-left: 5%;
+    padding-bottom: 4%;
+    width: 15%;
+}
