@@ -1,5 +1,5 @@
 * {
-    transition: all .1s ease-in;
+    transition: all .25s ease-in;
 }
 
 @font-face {
@@ -51,6 +51,7 @@ html {
 
 .grid-row-1-3:hover {
     transform: scale(1.15);
+    box-shadow: 12px 12px 10px #FF1493;
 }
 
 .grid-row-1-3:hover .price {
